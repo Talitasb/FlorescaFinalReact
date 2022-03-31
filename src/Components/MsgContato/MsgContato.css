@@ -1,0 +1,46 @@
+#card1 {
+    margin-left:auto;
+margin-right:auto;
+width:70%;
+    background-color: rgba(245, 241, 241, 0.755);
+}
+
+.card {
+    display: flex;
+    padding: 10px;
+    border-radius: 3%;
+    background-color: rgba(245, 241, 241, 0.755);
+    margin-right: 5%;
+    position: relative;
+    flex-direction: column;
+    min-width: 0;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+}
+
+.mensagem {
+
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+}
+
+h1 {
+    text-align: center;
+}
+
+.card {
+    max-width:600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h6 {
+    margin-left: 10px;
+}
+
+#mensagem a {
+    margin-left: 10px;
+}
