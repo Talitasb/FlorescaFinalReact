@@ -1,8 +1,8 @@
 import React from "react";
 import './Footer.css'
 
-const Footer = () => {};
-export default () => {
+const myVar = () => {
+
     return (
         <footer class="text-center text-white">
     
@@ -46,3 +46,5 @@ export default () => {
 </footer>
     );
 }
+
+export default myVar;
