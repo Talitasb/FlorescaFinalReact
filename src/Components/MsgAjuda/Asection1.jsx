@@ -9,7 +9,7 @@ import { useState, useEffect } from 'react'
 
 const Asection = () => {
 
-    const [cadastro, setCadastro] = useState([])
+    const [setCadastro] = useState([])
 
     useEffect(() => {
         api.get('/cadastro')

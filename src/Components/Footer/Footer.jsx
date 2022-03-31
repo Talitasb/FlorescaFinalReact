@@ -1,7 +1,7 @@
 import React from "react";
 import './Footer.css'
 
-
+const Footer = () => {};
 export default () => {
     return (
         <footer class="text-center text-white">

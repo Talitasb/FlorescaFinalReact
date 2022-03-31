@@ -6,7 +6,7 @@ import { useState, useEffect } from 'react'
 
 const Asection = () => {
 
-    const [cadastro, setCadastro] = useState([])
+    const [setCadastro] = useState([])
 
     useEffect(() => {
         api.get('/cadastro')
@@ -106,7 +106,7 @@ const Asection = () => {
                             <input type="checkbox" value="remember-me"></input> Desempregada
                         </label>
                     </div>
-                    <a class="btn btn-outline-primary" href="#">Enviar</a>
+                    <a class="btn btn-outline-primary">Enviar</a>
                 </div>
                 <input name="__RequestVerificationToken" type="hidden" value="CfDJ8ICARspdK2ZKvXBhTG9oSIUAhGQusTOYQEZOzQ1-fqOlhtOanvGHB-m8CaOLui996pYVwyP7QQtYav8JaNWPvPMiXVlgDqFgh4KKd-pd7MGlE0hMkEUJCuko0YBCi-L2yh3x1kRYcYkLaCV92fYSoNo"></input></form>
             <br></br>

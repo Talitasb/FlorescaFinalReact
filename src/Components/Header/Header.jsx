@@ -1,10 +1,7 @@
 import React from "react";
 import './Header.css'
 import Logo from "./Logo";
-import Flogo from "../../assets/img/floresça-removebg-preview.png"
-import Footer from '../Footer/Footer'
-import MainCarroussel from "../MainCarroussel/MainCarroussel";
-import MainCorpo from "../MainCorpo/MainCorpo";
+import Flogo from "../../assets/img/floresça-removebg-preview.png";
 import { Link } from "react-router-dom";
 
 

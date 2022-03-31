@@ -3,7 +3,6 @@ import './MainCarroussel.css'
 import MainCarrousselImg from "./MainCarrousselImg";
 import Luta from "../../assets/img/luta.png"
 
-
 export default () => {
     return (
         <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
